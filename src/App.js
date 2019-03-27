@@ -63,7 +63,7 @@ class App extends Component {
 
     return (
       <div className="App" style={{ maxWidth: 320, margin: '0 auto' }}>
-        <h1>Demo</h1>
+        <h1>EMI calculator app</h1>
 
         <Slider
           value={amount}
