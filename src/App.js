@@ -59,7 +59,7 @@ class App extends Component {
     let { amount, months } = this.state
     let apiResponse = this.state.response;
     let monthlyAmount = apiResponse.monthlyPayment ? apiResponse.monthlyPayment.amount : "Please select amount and tenure";
-    let interestRate = apiResponse.interestRate ? apiResponse.interestRate: "Please select amount and tenure"
+    let interestRate = apiResponse.interestRate ? apiResponse.interestRate: "Please select amount and tenure";
 
     return (
       <div className="App" style={{ maxWidth: 320, margin: '0 auto' }}>
