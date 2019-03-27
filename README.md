@@ -1,3 +1,7 @@
+App can be accessed using below URL:
+
+https://react-slider-abhi.herokuapp.com/
+
 Installing:
 
 The library is available as npm package.
